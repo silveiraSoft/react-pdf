@@ -1,9 +1,15 @@
+import {LoginPage} from "./pages/LoginPage"
 //import logo from './logo.svg';
 //import './App.css';
 
+
 function App() {
-  return ("Hello");
-  
+  return (
+    <div className="app">
+      <LoginPage/>
+    </div>
+  ); 
+  //return ("Hello");
   {/*
   return (
     <div className="App">
